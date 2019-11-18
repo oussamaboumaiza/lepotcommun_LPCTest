@@ -87,7 +87,7 @@ class PotAdapter(val context: Context, val emptyView: View? = null,val pots: Lis
 
                 println("item: $item")
 
-                title.text = item.name+" "+item.creationDate
+                title.text = item.name
                 amount.text = item.amount.toString()+"€ récoltés"
                 countributors.text = item.contributorsCount.toString()
                 println("item.imageUrl: "+item.imageUrl)
